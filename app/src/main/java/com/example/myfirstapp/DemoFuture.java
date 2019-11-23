@@ -69,7 +69,6 @@ public class DemoFuture {
                 System.out.println("执行完成结果:" + s);
             }
         });
-        System.out.println("去做其他事");
         //执行失败的回调
         future.exceptionally(new Function<Throwable, String>() {
             @Override
@@ -78,6 +77,6 @@ public class DemoFuture {
                 return null;
             }
         });
-
+        System.out.println("去做其他事");
     }
 }
