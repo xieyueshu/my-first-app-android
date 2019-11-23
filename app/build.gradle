@@ -40,5 +40,6 @@ dependencies {
     implementation 'com.google.dagger:dagger:2.15'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.15'
 
+    implementation "org.web3j:core:3.3.1-android"
 
 }
